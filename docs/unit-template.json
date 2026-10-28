@@ -1,0 +1,26 @@
+{
+  "id": 3,
+  "title": "Replace with the supplied unit title",
+  "subtitle": "A short, encouraging subtitle.",
+  "color": "purple",
+  "icon": "spark",
+  "range": "38–48",
+  "description": "Replace with a brief unit description.",
+  "skills": ["Main skill", "Another skill"],
+  "pages": [
+    {
+      "number": 38,
+      "section": "Listening & Speaking · Part 1",
+      "title": "A short page title",
+      "activities": [
+        {
+          "label": "1",
+          "title": "A short activity description",
+          "kind": "sample",
+          "answers": ["Replace this with a real brief model response after reading the supplied activity."],
+          "note": "Optional context, alternative answers or submission guidance."
+        }
+      ]
+    }
+  ]
+}

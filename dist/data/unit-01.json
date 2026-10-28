@@ -1,0 +1,676 @@
+{
+  "id": 1,
+  "title": "Future Jobs",
+  "subtitle": "Dream big. Plan your next chapter.",
+  "color": "purple",
+  "icon": "orbit",
+  "range": "10–24",
+  "description": "Career choices, future plans, job interviews and the first steps towards your dream job.",
+  "skills": [
+    "Future plans",
+    "Job interviews",
+    "CV writing"
+  ],
+  "pages": [
+    {
+      "number": 10,
+      "section": "Listening & Speaking · Part 1",
+      "title": "Let’s talk about the future",
+      "activities": [
+        {
+          "label": "1",
+          "title": "Family jobs",
+          "kind": "sample",
+          "answers": [
+            "My father is an engineer, and my mother is a teacher."
+          ]
+        },
+        {
+          "label": "2",
+          "title": "A list of jobs",
+          "kind": "sample",
+          "answers": [
+            "Teacher, doctor, nurse, engineer, architect, dentist, accountant, lawyer, chef, pilot, journalist, software developer."
+          ]
+        },
+        {
+          "label": "3",
+          "title": "The most interesting job",
+          "kind": "sample",
+          "answers": [
+            "I think being a software developer is the most interesting job because I enjoy solving problems and creating useful apps."
+          ]
+        },
+        {
+          "label": "4",
+          "title": "Popular jobs in the near future",
+          "kind": "sample",
+          "answers": [
+            "I would tick information security analyst, biomedical engineer and solar energy technician. People will need secure systems, better healthcare and clean energy."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "section": "Listening & Speaking · Part 1",
+      "title": "Career choices",
+      "activities": [
+        {
+          "label": "5",
+          "title": "Label the jobs",
+          "kind": "key",
+          "answers": [
+            "mechatronics engineer",
+            "civil engineer",
+            "accountant",
+            "wind energy technician",
+            "surgeon",
+            "virtual reality designer"
+          ],
+          "note": "Extra job: fashion designer."
+        },
+        {
+          "label": "6",
+          "title": "The main idea · Audio 1.1",
+          "kind": "key",
+          "answers": [
+            "B — Some students’ career choices for the future."
+          ]
+        },
+        {
+          "label": "7",
+          "title": "Choose the correct alternatives",
+          "kind": "key",
+          "answers": [
+            "statistician",
+            "an accountant",
+            "mechatronics",
+            "computer systems analyst"
+          ]
+        },
+        {
+          "label": "8",
+          "title": "Complete the sentences",
+          "kind": "key",
+          "answers": [
+            "numbers",
+            "designing a new machine",
+            "computer science"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "section": "Listening & Speaking · Part 1",
+      "title": "Tomorrow’s world of work",
+      "activities": [
+        {
+          "label": "9",
+          "title": "Jobs mentioned · Audio 1.2",
+          "kind": "key",
+          "answers": [
+            "information security analyst",
+            "digital content specialist",
+            "biomedical engineer",
+            "nanotechnologist",
+            "wind energy technician",
+            "solar energy technician"
+          ],
+          "note": "Tick these six jobs. The other listed jobs are not mentioned in this part of the talk."
+        },
+        {
+          "label": "10",
+          "title": "Fill in the blanks",
+          "kind": "key",
+          "answers": [
+            "advances",
+            "decline",
+            "demand",
+            "employment",
+            "renewable"
+          ],
+          "note": "Extra word: addition."
+        },
+        {
+          "label": "11",
+          "title": "Match the definitions",
+          "kind": "key",
+          "answers": [
+            "a. demand",
+            "b. employment",
+            "c. advances",
+            "d. decline",
+            "e. renewable",
+            "f. addition"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "section": "Speaking & Idioms",
+      "title": "Make up your mind",
+      "activities": [
+        {
+          "label": "12",
+          "title": "Do you agree with the predictions?",
+          "kind": "sample",
+          "answers": [
+            "Yes. I agree because technology and renewable energy are becoming more important, so these careers may offer good opportunities."
+          ],
+          "note": "A model opinion about the predictions in the book; other well-supported opinions are valid."
+        },
+        {
+          "label": "13",
+          "title": "Your future career",
+          "kind": "sample",
+          "answers": [
+            "A: What are you going to do in your future career?",
+            "B: I’m going to be a software engineer because I enjoy coding. What about you?",
+            "A: I hope I’ll be a doctor because I want to help people."
+          ]
+        },
+        {
+          "label": "Idioms 1",
+          "title": "Choose the meanings",
+          "kind": "key",
+          "answers": [
+            "B — make up your mind: decide",
+            "A — on top of the world: extremely happy",
+            "B — think outside the box: think creatively"
+          ]
+        },
+        {
+          "label": "Idioms 2",
+          "title": "Complete the sentences",
+          "kind": "key",
+          "answers": [
+            "on top of the world",
+            "think outside the box",
+            "make up my mind"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "section": "Pronunciation & E-Portfolio",
+      "title": "Say it with confidence",
+      "activities": [
+        {
+          "label": "Pronunciation 1–2",
+          "title": "Contractions in future sentences",
+          "kind": "practice",
+          "answers": [
+            "I’m = I am",
+            "I’ll = I will",
+            "won’t = will not"
+          ],
+          "note": "Listen to Audio 1.3 and repeat the sentences in the book."
+        },
+        {
+          "label": "Pronunciation 3",
+          "title": "Negative forms · Audio 1.4",
+          "kind": "practice",
+          "answers": [
+            "I’m not going to study law; I’m going to be a dentist.",
+            "My brother isn’t going to study medicine; he’s going to be a software engineer.",
+            "My best friends aren’t going to work in an office; they’re going to be actors.",
+            "Lucy won’t go to university; she’ll probably be a dancer."
+          ],
+          "note": "Read aloud and practise the contractions."
+        },
+        {
+          "label": "Pronunciation 4",
+          "title": "Plans and predictions for next week",
+          "kind": "sample",
+          "answers": [
+            "I’m going to revise English next week. I’ll probably study with a friend. I won’t stay up late."
+          ]
+        },
+        {
+          "label": "E-Portfolio 1",
+          "title": "The main idea",
+          "kind": "key",
+          "answers": [
+            "why an e-portfolio is beneficial"
+          ]
+        },
+        {
+          "label": "E-Portfolio 2",
+          "title": "Set up your learning portfolio",
+          "kind": "practice",
+          "answers": [
+            "Use an individual blog under your teacher’s supervision. Add your assignments and projects, collect feedback, and review your progress."
+          ],
+          "note": "This is an action task; there is no single written answer."
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "section": "E-Portfolio & Listening · Part 2",
+      "title": "Your first steps into work",
+      "activities": [
+        {
+          "label": "E-Portfolio 3",
+          "title": "Career poster",
+          "kind": "sample",
+          "answers": [
+            "SOLAR ENERGY TECHNICIAN",
+            "What they do: Install and maintain solar energy systems.",
+            "Skills: Technical knowledge, teamwork and careful problem-solving.",
+            "Why it interests me: I want to help people use clean energy."
+          ],
+          "note": "A brief poster model. Add a suitable illustration, follow your teacher’s project instructions, and submit it next week."
+        },
+        {
+          "label": "1",
+          "title": "CV and letter of intent",
+          "kind": "practice",
+          "answers": [
+            "CV = curriculum vitae. Résumé is another word for CV.",
+            "A letter of intent is an application letter or cover letter in this context."
+          ]
+        },
+        {
+          "label": "2",
+          "title": "Vocabulary",
+          "kind": "key",
+          "answers": [
+            "degree: a university qualification — üniversite diploması",
+            "vacancy: an available job — açık kadro / boş pozisyon",
+            "schedule: arrange a time — zamanını planlamak"
+          ]
+        },
+        {
+          "label": "3",
+          "title": "Put the pictures in order",
+          "kind": "key",
+          "answers": [
+            "1. c — Graduate and get a degree.",
+            "2. b — Search for vacancies.",
+            "3. d — Send a CV and letter of intent.",
+            "4. a — Contact the company and schedule an interview."
+          ],
+          "note": "Equivalently: a = 4, b = 2, c = 1, d = 3."
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "section": "Listening & Speaking · Part 2",
+      "title": "Schedule an interview",
+      "activities": [
+        {
+          "label": "4",
+          "title": "Robin’s phone call · Audio 1.5",
+          "kind": "key",
+          "answers": [
+            "web designer",
+            "next week",
+            "Monday",
+            "dentist’s",
+            "4 o’clock",
+            "Wednesday",
+            "19 October (the nineteenth of October)"
+          ]
+        },
+        {
+          "label": "5",
+          "title": "Act out the phone call",
+          "kind": "practice",
+          "answers": [
+            "Practise the conversation in activity 4 using the completed answers. Then swap the HR manager and candidate roles."
+          ],
+          "note": "Use the book dialogue; a new role-play model is provided on page 18."
+        },
+        {
+          "label": "6",
+          "title": "Correct the mistakes",
+          "kind": "key",
+          "answers": [
+            "Robin applied for the vacant position of web designer at the company.",
+            "The human resources manager first wanted to schedule the interview for next Monday.",
+            "Robin could not attend at 2 p.m. on Monday because he had an appointment with the dentist.",
+            "They finally agreed to schedule the interview for 19 October."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "section": "Listening & Speaking · Part 2",
+      "title": "Meet the candidate",
+      "activities": [
+        {
+          "label": "7",
+          "title": "Predict the interview questions",
+          "kind": "sample",
+          "answers": [
+            "I think the interviewer will ask about Robin’s education, strengths and reasons for wanting the job."
+          ],
+          "note": "A prediction before watching. Compare it with activity 8."
+        },
+        {
+          "label": "8",
+          "title": "Questions heard · Video 1.1",
+          "kind": "key",
+          "answers": [
+            "Can you tell me a little bit about yourself?",
+            "What are your strengths?",
+            "Why do you want this job?"
+          ]
+        },
+        {
+          "label": "9",
+          "title": "Complete the interview",
+          "kind": "key",
+          "answers": [
+            "a. Can you tell me a little bit about yourself?",
+            "b. What are your strengths?",
+            "c. Why do you want this job?"
+          ]
+        },
+        {
+          "label": "10",
+          "title": "Choose the correct words",
+          "kind": "key",
+          "answers": [
+            "projects",
+            "useful",
+            "researching",
+            "effective",
+            "essential",
+            "ambitious"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "section": "Speaking & Vocabulary",
+      "title": "Your turn in the interview",
+      "activities": [
+        {
+          "label": "11",
+          "title": "Match words and definitions",
+          "kind": "key",
+          "answers": [
+            "a → 3: upgrade",
+            "b → 2: temporary",
+            "c → 4: cope",
+            "d → 1: achieve",
+            "e → 5: competent"
+          ],
+          "note": "Extra word: determined."
+        },
+        {
+          "label": "12",
+          "title": "Discuss the questions",
+          "kind": "sample",
+          "answers": [
+            "1. Yes, I would employ Robin. He is qualified, hardworking and good at teamwork.",
+            "2. Yes. Doing our best helps us improve our skills and reach our goals.",
+            "3. No, I haven’t had a temporary job yet. I’m planning to work in a café next summer."
+          ]
+        },
+        {
+          "label": "13",
+          "title": "A phone conversation",
+          "kind": "sample",
+          "answers": [
+            "HR: Good morning. How can I help you?",
+            "Candidate: I’m Deniz Kaya. I applied for the web designer position. Could we schedule an interview?",
+            "HR: Certainly. Are you available on Tuesday at 10?",
+            "Candidate: I’m sorry, I have a class then. Could we meet at 2?",
+            "HR: Yes, that’s fine. See you on Tuesday at 2.",
+            "Candidate: Thank you. Have a nice day."
+          ]
+        },
+        {
+          "label": "14",
+          "title": "Swap roles: another short model",
+          "kind": "sample",
+          "answers": [
+            "Candidate: Hello, I’m Ece Yılmaz. I’m calling about the engineer position.",
+            "HR: Can you come on Wednesday at 11?",
+            "Candidate: Yes, that’s fine by me. Thank you.",
+            "HR: You’re welcome. See you then."
+          ]
+        },
+        {
+          "label": "15",
+          "title": "Present and record",
+          "kind": "practice",
+          "answers": [
+            "Present one of the model conversations with your partner. Ask a classmate to record it, then upload it as instructed by your teacher."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "section": "Video Blog & Reading",
+      "title": "Build your professional story",
+      "activities": [
+        {
+          "label": "Video Blog 1",
+          "title": "Are video blogs useful in English?",
+          "kind": "sample",
+          "answers": [
+            "Yes. Video blogs help us practise speaking, notice our mistakes and see our progress."
+          ]
+        },
+        {
+          "label": "Video Blog 2",
+          "title": "A brief job interview script",
+          "kind": "sample",
+          "answers": [
+            "Manager: Can you tell me a little about yourself?",
+            "Candidate: I’m a recent engineering graduate. I enjoy designing and solving problems.",
+            "Manager: What are your strengths?",
+            "Candidate: I’m organised, hardworking and a good team player.",
+            "Manager: Why do you want this job?",
+            "Candidate: I want to use my skills and learn from your team."
+          ],
+          "note": "Record with your partner, then assess fluency and accuracy after watching. Evaluation depends on the actual performance."
+        },
+        {
+          "label": "Reading 1",
+          "title": "Degree acronyms",
+          "kind": "key",
+          "answers": [
+            "B.A. — Bachelor of Arts",
+            "B.S. — Bachelor of Science",
+            "M.A. — Master of Arts",
+            "M.S. — Master of Science"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "section": "Reading & Writing",
+      "title": "Find the right job",
+      "activities": [
+        {
+          "label": "2",
+          "title": "How would you look for a job?",
+          "kind": "sample",
+          "answers": [
+            "I would use job search websites because I could compare many vacancies and apply quickly."
+          ]
+        },
+        {
+          "label": "3",
+          "title": "The two sections of a job ad",
+          "kind": "key",
+          "answers": [
+            "Responsibilities",
+            "Qualifications"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "section": "Reading & Writing",
+      "title": "Read between the job ads",
+      "activities": [
+        {
+          "label": "4",
+          "title": "Choose the correct answers",
+          "kind": "key",
+          "answers": [
+            "D — planning marketing campaigns",
+            "B — a B.S. or an M.S.",
+            "D — teamwork",
+            "A — performing tests on products",
+            "C — 5 years of experience in Advertising",
+            "A — creating a positive public image for clients",
+            "C — testing and managing systems",
+            "B — an M.S. in a relevant field"
+          ]
+        },
+        {
+          "label": "5",
+          "title": "Which position would you choose?",
+          "kind": "sample",
+          "answers": [
+            "I would apply for the mechanical engineer position because I enjoy designing products and working in a team."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "section": "Reading & Writing",
+      "title": "A closer look at CVs",
+      "activities": [
+        {
+          "label": "6",
+          "title": "Identify the text type",
+          "kind": "key",
+          "answers": [
+            "They are CVs."
+          ]
+        },
+        {
+          "label": "7",
+          "title": "Match CVs to positions",
+          "kind": "key",
+          "answers": [
+            "Catherine Jackson — Public Relations Director",
+            "David Newton — Mechanical Engineer"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "section": "Reading & Writing",
+      "title": "Skills, experience and purpose",
+      "activities": [
+        {
+          "label": "8",
+          "title": "Catherine or David?",
+          "kind": "key",
+          "answers": [
+            "David",
+            "Catherine",
+            "David",
+            "Catherine",
+            "Catherine",
+            "David",
+            "Catherine",
+            "David"
+          ]
+        },
+        {
+          "label": "9",
+          "title": "Would you hire them?",
+          "kind": "sample",
+          "answers": [
+            "1. Yes, I would hire Catherine because she has relevant experience and strong leadership skills.",
+            "2. Yes, I would hire David because he has engineering qualifications and good problem-solving skills."
+          ]
+        },
+        {
+          "label": "10",
+          "title": "Wendy Kopp: the main idea",
+          "kind": "key",
+          "answers": [
+            "B — Her attempts to start and develop her original idea."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "section": "Reading, Writing & Discussion",
+      "title": "Turn an idea into a future",
+      "activities": [
+        {
+          "label": "11",
+          "title": "Put the events in order",
+          "kind": "key",
+          "answers": [
+            "a = 4",
+            "b = 1",
+            "c = 5",
+            "d = 3",
+            "e = 6",
+            "f = 2"
+          ],
+          "note": "Chronological sequence: b → f → d → a → c → e."
+        },
+        {
+          "label": "12",
+          "title": "Use the correct words",
+          "kind": "key",
+          "answers": [
+            "entrepreneur",
+            "volunteers",
+            "expanded",
+            "approximately",
+            "donations"
+          ]
+        },
+        {
+          "label": "13",
+          "title": "Wendy Kopp’s success story",
+          "kind": "sample",
+          "answers": [
+            "Her story is inspiring because she turned an idea into a project that helped many students. It shows that determination can make a difference."
+          ]
+        },
+        {
+          "label": "14",
+          "title": "A brief CV model",
+          "kind": "sample",
+          "answers": [
+            "DENİZ KAYA · Mechanical Engineer",
+            "Profile: A motivated engineer with an interest in product design.",
+            "Education: B.S. in Mechanical Engineering, 2020.",
+            "Experience: Mechanical engineer, 2020–2026. Designed products, tested systems and worked with a research team.",
+            "Skills: CAD, teamwork and problem-solving.",
+            "Interests: Robotics and cycling.",
+            "References: Available on request."
+          ],
+          "note": "Fictional professional CV for the mechanical engineer ad. It shows a suitable degree and six years of experience. Adapt the format to your own details or an imagined future profile."
+        },
+        {
+          "label": "Discussion",
+          "title": "Goals and direction",
+          "kind": "sample",
+          "answers": [
+            "The quote means that clear goals help us make useful choices. For example, choosing a career goal can help us decide what to study."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,516 @@
+{
+  "id": 2,
+  "title": "Hobbies and Skills",
+  "subtitle": "Find your thing. Make it yours.",
+  "color": "teal",
+  "icon": "spark",
+  "range": "26–36",
+  "description": "Discover interests, express preferences and talk about what you can do now—and what you could do before.",
+  "skills": [
+    "Likes & dislikes",
+    "Preferences",
+    "Present & past ability"
+  ],
+  "pages": [
+    {
+      "number": 26,
+      "section": "Listening & Speaking · Part 1",
+      "title": "A world of hobbies",
+      "activities": [
+        {
+          "label": "1",
+          "title": "Label the hobbies",
+          "kind": "key",
+          "answers": [
+            "surfing",
+            "photography / taking photos",
+            "playing the guitar",
+            "playing chess",
+            "snowboarding",
+            "playing tennis",
+            "fishing",
+            "(doing) martial arts",
+            "sculpture",
+            "(rock) climbing",
+            "doing crossword puzzles",
+            "swimming"
+          ]
+        },
+        {
+          "label": "2",
+          "title": "Your experience and a new hobby",
+          "kind": "sample",
+          "answers": [
+            "1. I have tried swimming, playing chess and taking photos.",
+            "2. I’d like to take up playing the guitar because I love music."
+          ]
+        },
+        {
+          "label": "3",
+          "title": "Brainstorm hobbies",
+          "kind": "sample",
+          "answers": [
+            "Reading, drawing, cycling, cooking, hiking, pottery, coding, gardening, origami, dancing, photography and playing musical instruments."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "section": "Listening & Speaking · Part 1",
+      "title": "Meet Roger and his hobbies",
+      "activities": [
+        {
+          "label": "4",
+          "title": "Hobbies mentioned · Audio 2.1",
+          "kind": "key",
+          "answers": [
+            "reading magazines",
+            "writing blogs",
+            "origami",
+            "pottery",
+            "gardening",
+            "cycling",
+            "camping",
+            "hiking"
+          ]
+        },
+        {
+          "label": "5",
+          "title": "Roger’s favourite pastime · Audio 2.2",
+          "kind": "key",
+          "answers": [
+            "C — gardening"
+          ]
+        },
+        {
+          "label": "6",
+          "title": "Fill in the blanks",
+          "kind": "key",
+          "answers": [
+            "camping",
+            "hiking",
+            "flowers",
+            "Gardening / His hobby",
+            "arts and crafts",
+            "embroidery and pottery"
+          ]
+        },
+        {
+          "label": "7",
+          "title": "Discuss your hobbies and abilities",
+          "kind": "sample",
+          "answers": [
+            "1. I prefer outdoor activities because I like fresh air.",
+            "2. My favourite pastime is cycling.",
+            "3. Yes, I agree. Being in nature helps me feel calm and active.",
+            "4. Yes. Gardening is interesting because I enjoy watching plants grow.",
+            "5. I’m good at drawing.",
+            "6. Yes, I’m interested in arts and crafts.",
+            "7. I’m not skilled at embroidery, but I can make simple pottery."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "section": "Speaking & Idioms",
+      "title": "What are you into?",
+      "activities": [
+        {
+          "label": "8",
+          "title": "A hobby dialogue",
+          "kind": "sample",
+          "answers": [
+            "A: What are you fond of doing in your free time?",
+            "B: I’m fond of taking photos. What about you?",
+            "A: I’m fond of cycling. What are you interested in?",
+            "B: I’m interested in learning foreign languages."
+          ]
+        },
+        {
+          "label": "9",
+          "title": "Express your preferences",
+          "kind": "sample",
+          "answers": [
+            "A: Do you prefer reading or watching films?",
+            "B: I prefer reading to watching films.",
+            "A: Would you rather play tennis or swim?",
+            "B: I’d rather swim than play tennis."
+          ]
+        },
+        {
+          "label": "Idioms",
+          "title": "Choose the correct meanings",
+          "kind": "key",
+          "answers": [
+            "A — My pleasure: You’re welcome.",
+            "B — You can say that again: That’s true; I agree.",
+            "A — the nuts and bolts: the basic practical details of a subject or activity."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "section": "Pronunciation & E-Portfolio",
+      "title": "Small endings, different sounds",
+      "activities": [
+        {
+          "label": "1",
+          "title": "Listen to the verb endings",
+          "kind": "practice",
+          "answers": [
+            "/s/: helps, likes",
+            "/z/: loves, listens",
+            "/ɪz/: watches, brushes"
+          ]
+        },
+        {
+          "label": "2–3",
+          "title": "Sort the verbs · Audio 2.3",
+          "kind": "key",
+          "answers": [
+            "/s/: helps, likes, speaks, starts",
+            "/z/: loves, listens, enjoys, needs",
+            "/ɪz/: watches, brushes, fixes, teaches"
+          ],
+          "note": "New highlighted verbs: speaks /s/, enjoys /z/, fixes /ɪz/, needs /z/, teaches /ɪz/, starts /s/."
+        },
+        {
+          "label": "4",
+          "title": "Listen to the plural endings",
+          "kind": "practice",
+          "answers": [
+            "/s/: gifts, steps",
+            "/z/: items, jars",
+            "/ɪz/: boxes, dresses"
+          ]
+        },
+        {
+          "label": "5–6",
+          "title": "Sort the nouns · Audio 2.4",
+          "kind": "key",
+          "answers": [
+            "/s/: gifts, steps, books, tents",
+            "/z/: items, jars, flowers, birds",
+            "/ɪz/: boxes, dresses, glasses, beaches"
+          ],
+          "note": "New highlighted nouns: flowers /z/, books /s/, glasses /ɪz/, beaches /ɪz/, birds /z/, tents /s/."
+        },
+        {
+          "label": "E-Portfolio",
+          "title": "A short hobby presentation",
+          "kind": "sample",
+          "answers": [
+            "My hobby is photography. I took it up last year because I enjoy capturing special moments. The nuts and bolts are choosing a subject, finding good light and keeping the camera steady. I usually take photos of nature."
+          ],
+          "note": "A model presentation. Complete the requested research, add your own examples, and follow your teacher’s submission instructions."
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "section": "Listening & Speaking · Part 2",
+      "title": "Creativity and kindness",
+      "activities": [
+        {
+          "label": "1",
+          "title": "Complete the vocabulary table",
+          "kind": "key",
+          "answers": [
+            "altruism",
+            "calligraphy"
+          ]
+        },
+        {
+          "label": "2",
+          "title": "The interviewer’s questions · Audio 2.5",
+          "kind": "key",
+          "answers": [
+            "Do you prefer indoor or outdoor activities?",
+            "What do you like doing in your free time?",
+            "What do you dislike doing in your free time?",
+            "Do you have a new hobby?",
+            "When did you start this hobby?"
+          ]
+        },
+        {
+          "label": "3",
+          "title": "Choose the correct alternatives",
+          "kind": "key",
+          "answers": [
+            "indoor",
+            "drawing",
+            "reality TV shows",
+            "once",
+            "Chinese",
+            "3",
+            "altruism",
+            "charity"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "section": "Speaking, Video Blog & Reading",
+      "title": "A hobby with a purpose",
+      "activities": [
+        {
+          "label": "Speaking 4",
+          "title": "Calligraphy and childhood abilities",
+          "kind": "sample",
+          "answers": [
+            "1. Yes. I’d like to learn Turkish calligraphy because it looks beautiful.",
+            "2. Yes, I could write neatly when I was at primary school.",
+            "3. I could draw simple pictures, but I couldn’t draw portraits well.",
+            "4. Yes. I want to help people who need support."
+          ]
+        },
+        {
+          "label": "Video Blog",
+          "title": "A brief hobby interview",
+          "kind": "sample",
+          "answers": [
+            "A: Do you prefer indoor or outdoor activities?",
+            "B: I prefer outdoor activities.",
+            "A: What do you like doing in your free time?",
+            "B: I like cycling.",
+            "A: What do you dislike doing?",
+            "B: I dislike watching reality TV shows.",
+            "A: Do you have a new hobby?",
+            "B: Yes, photography.",
+            "A: When did you start it?",
+            "B: Two months ago."
+          ],
+          "note": "Record the interview, swap roles and record again. Evaluate fluency and accuracy after watching."
+        },
+        {
+          "label": "Reading 1",
+          "title": "A celebrity’s hobby",
+          "kind": "sample",
+          "answers": [
+            "According to the text in this unit, Tom Hanks enjoys collecting typewriters."
+          ]
+        },
+        {
+          "label": "Reading 2",
+          "title": "Label the pictures",
+          "kind": "key",
+          "answers": [
+            "unicycle",
+            "fencing",
+            "philanthropy",
+            "typewriter"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "section": "Reading & Writing",
+      "title": "Famous people, surprising hobbies",
+      "activities": [
+        {
+          "label": "3",
+          "title": "Complete the table",
+          "kind": "key",
+          "answers": [
+            "Tom Hanks — collecting typewriters",
+            "David Beckham — fencing",
+            "Leslie Mann — riding a unicycle",
+            "Oprah Winfrey — philanthropy"
+          ],
+          "note": "These are answers according to the book’s reading text."
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "section": "Reading, Speaking & Discussion",
+      "title": "Passions that make a difference",
+      "activities": [
+        {
+          "label": "4",
+          "title": "Answer about the celebrities",
+          "kind": "key",
+          "answers": [
+            "Tom Hanks is keen on collecting typewriters.",
+            "David Beckham is fond of fencing.",
+            "Leslie Mann prefers riding a unicycle in her free time.",
+            "Oprah Winfrey is interested in philanthropy."
+          ]
+        },
+        {
+          "label": "5",
+          "title": "Name the correct celebrity",
+          "kind": "key",
+          "answers": [
+            "Oprah Winfrey",
+            "David Beckham",
+            "Oprah Winfrey",
+            "Tom Hanks",
+            "Leslie Mann",
+            "David Beckham",
+            "Leslie Mann",
+            "Tom Hanks"
+          ]
+        },
+        {
+          "label": "6",
+          "title": "Your views and interests",
+          "kind": "sample",
+          "answers": [
+            "1. Yes, collecting typewriters is interesting because old machines have a history.",
+            "2. I’m good at playing basketball.",
+            "3. Yes, fencing looks exciting and challenging.",
+            "4. Yes, I’m into cycling because it keeps me active.",
+            "5. No, I’ve never ridden a unicycle.",
+            "6. Yes, I’m interested in helping others.",
+            "7. Yes. My neighbour volunteers at a local charity.",
+            "8. Yes, I’d like to volunteer at weekends.",
+            "9. Yes, I would donate money to help people in need."
+          ]
+        },
+        {
+          "label": "7",
+          "title": "Altruism or selfishness?",
+          "kind": "sample",
+          "answers": [
+            "I think helping others makes society stronger. Small actions, such as volunteering or sharing, can improve people’s lives."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "section": "Reading & Writing",
+      "title": "An inspirational scientist",
+      "activities": [
+        {
+          "label": "8",
+          "title": "What do you know about Feza Gürsey?",
+          "kind": "sample",
+          "answers": [
+            "Yes, I’ve heard of him. He was a Turkish scientist known for his work in theoretical physics."
+          ]
+        },
+        {
+          "label": "9",
+          "title": "What is NOT covered in the article?",
+          "kind": "key",
+          "answers": [
+            "D — his wife"
+          ],
+          "note": "The article gives information about his achievements, career and education."
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "section": "Reading & Vocabulary",
+      "title": "Read, check, discover",
+      "activities": [
+        {
+          "label": "10",
+          "title": "True, false or no information?",
+          "kind": "key",
+          "answers": [
+            "True",
+            "False — He was incredibly intelligent.",
+            "False — He graduated from high school at the age of 19.",
+            "True",
+            "No information",
+            "False — He did his doctorate at Imperial College in London.",
+            "No information",
+            "True",
+            "No information"
+          ],
+          "note": "“No information” means the text does not establish the claim, even if it might be true outside the text."
+        },
+        {
+          "label": "11",
+          "title": "Choose the correct statement",
+          "kind": "key",
+          "answers": [
+            "C — Feza Gürsey was working at Yale University when he retired."
+          ]
+        },
+        {
+          "label": "12",
+          "title": "Match words to definitions",
+          "kind": "key",
+          "answers": [
+            "scholarship",
+            "admiration",
+            "incredibly",
+            "particularly",
+            "inspiration",
+            "pass away"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "section": "Writing & Discussion",
+      "title": "Your interests, your abilities",
+      "activities": [
+        {
+          "label": "13",
+          "title": "Use the correct forms",
+          "kind": "key",
+          "answers": [
+            "inspiration",
+            "passed away",
+            "admiration",
+            "scholarship",
+            "particularly"
+          ],
+          "note": "Unused word: incredibly."
+        },
+        {
+          "label": "14",
+          "title": "Reflect on Feza Gürsey’s story",
+          "kind": "sample",
+          "answers": [
+            "1. His story is inspiring because he worked hard and contributed to science.",
+            "2. I found his international research career the most interesting.",
+            "3. Yes. His achievements can encourage young people to follow their interests."
+          ]
+        },
+        {
+          "label": "15",
+          "title": "Your past and present abilities",
+          "kind": "sample",
+          "answers": [
+            "1. Yes, I could solve simple maths problems easily at primary school.",
+            "2. Yes, I could get high grades when I studied regularly.",
+            "3. I’m fairly good at solving physics problems.",
+            "4. I’m gifted at English and art.",
+            "5. I’m keen on studying English and computer science.",
+            "6. No, I’d prefer a career in software engineering."
+          ]
+        },
+        {
+          "label": "16",
+          "title": "A short paragraph",
+          "kind": "sample",
+          "answers": [
+            "I’m interested in music and technology. I enjoy playing the guitar, and I’m good at learning new songs. When I was younger, I could draw well, but I couldn’t play an instrument. Now I can play several songs. I prefer creative activities because they help me express myself."
+          ]
+        },
+        {
+          "label": "Discussion",
+          "title": "Science, evidence and remembering scientists",
+          "kind": "sample",
+          "answers": [
+            "1. Scientists should change their ideas when evidence shows something different. Facts should guide their thinking.",
+            "2. We should remember our scientists because their achievements inspire future generations and help us value science."
+          ]
+        }
+      ]
+    }
+  ]
+}

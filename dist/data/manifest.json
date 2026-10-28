@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "title": "English 11 · Answer Studio",
+  "author": "Sinan Seden",
+  "source": "MEB Grade 11 English Student’s Book · Teacher’s Guide photographs supplied by the teacher",
+  "units": [
+    {
+      "id": 1,
+      "title": "Future Jobs",
+      "subtitle": "Dream big. Plan your next chapter.",
+      "color": "purple",
+      "icon": "orbit",
+      "range": "10–24",
+      "description": "Career choices, future plans, job interviews and the first steps towards your dream job.",
+      "skills": [
+        "Future plans",
+        "Job interviews",
+        "CV writing"
+      ],
+      "file": "unit-01.json",
+      "status": "available"
+    },
+    {
+      "id": 2,
+      "title": "Hobbies and Skills",
+      "subtitle": "Find your thing. Make it yours.",
+      "color": "teal",
+      "icon": "spark",
+      "range": "26–36",
+      "description": "Discover interests, express preferences and talk about what you can do now—and what you could do before.",
+      "skills": [
+        "Likes & dislikes",
+        "Preferences",
+        "Present & past ability"
+      ],
+      "file": "unit-02.json",
+      "status": "available"
+    }
+  ]
+}

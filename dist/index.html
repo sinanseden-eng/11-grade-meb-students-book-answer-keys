@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#7154d8">
+  <meta name="description" content="Explore MEB Grade 11 English answer keys with page-by-page answers, brief sample responses and room for more units. Prepared by Sinan Seden.">
+  <title>English 11 · Answer Studio</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <aside class="sidebar" id="sidebar" aria-label="Main navigation">
+    <a class="brand" href="#/" aria-label="Answer Studio home"><span class="brand-mark">e<span>11</span><i>✦</i></span><span>Answer<br>Studio<span class="brand-sub">ENGLISH · GRADE 11</span></span></a>
+    <span class="nav-label">YOUR LEARNING SPACE</span>
+    <nav>
+      <a class="nav-link" data-nav="home" href="#/"><span aria-hidden="true">▦</span> All units <span class="nav-count" id="available-count">2</span></a>
+      <a class="nav-link" data-nav="saved" href="#/saved"><span aria-hidden="true">♧</span> Saved pages <span class="nav-count" id="saved-count">0</span></a>
+    </nav>
+    <div class="nav-divider"></div>
+    <span class="nav-label">THE COLLECTION</span>
+    <nav id="unit-navigation" aria-label="Units"></nav>
+    <div class="soon-nav"><span>＋</span><div>More units on the way<small>A growing collection</small></div></div>
+    <div class="sidebar-bottom">
+      <div class="tiny-note"><span class="note-star">✧</span><strong>A little practice.<br>A brighter future.</strong><p>Try it yourself. Then check,<br>reflect and keep going.</p></div>
+      <div class="teacher"><span class="avatar">SS</span><div>Prepared by<strong>Sinan Seden</strong></div><span class="teacher-dot" title="Teacher edition"></span></div>
+    </div>
+  </aside>
+  <div class="mobile-scrim" id="mobile-scrim"></div>
+  <div class="workspace">
+    <header class="topbar">
+      <button class="icon-button mobile-menu" id="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="breadcrumb"><span class="status-dot"></span>MEB Student’s Book<span class="crumb-separator">/</span><strong>Answer keys</strong></div>
+      <div class="top-actions"><button class="search-trigger" id="search-trigger"><span aria-hidden="true">⌕</span> Search the answers <kbd>/</kbd></button><button class="icon-button" id="help-trigger" aria-label="How to use this answer key">?</button></div>
+    </header>
+    <main id="main" tabindex="-1"><div class="loading"><span class="loading-star">✦</span><p>Opening your answer studio…</p></div></main>
+    <footer class="footer"><span>English 11 <b>✦</b> Answer Studio</span><span>Prepared by Sinan Seden · Independent teaching resource</span><a href="https://github.com/sinanseden-eng/11-grade-meb-students-book-answer-keys" target="_blank" rel="noopener noreferrer">View on GitHub ↗</a></footer>
+  </div>
+  <dialog id="search-dialog" class="search-dialog" aria-labelledby="search-title">
+    <div class="dialog-head"><h2 id="search-title">Find a little clarity.</h2><button class="icon-button" data-close-dialog aria-label="Close search">×</button></div>
+    <label for="search-input" class="sr-only">Search by word, activity or page number</label>
+    <div class="search-field"><span aria-hidden="true">⌕</span><input id="search-input" type="search" placeholder="Try “scholarship”, “CV” or “page 27”…" autocomplete="off"></div>
+    <p class="search-hint">Search across all available units.</p><div id="search-results" aria-live="polite"></div>
+  </dialog>
+  <dialog id="help-dialog" class="help-dialog" aria-labelledby="help-title">
+    <div class="dialog-head"><span class="eyebrow">A QUICK TOUR</span><button class="icon-button" data-close-dialog aria-label="Close guide">×</button></div>
+    <h2 id="help-title">Your book. A clearer path.</h2>
+    <ol class="help-steps"><li><b>Pick a unit and a page.</b> Page numbers refer to the Student’s Book, not the larger numbers on the Teacher’s Guide photographs.</li><li><b>Try first, then reveal.</b> Open individual answers, or use “Show all” and “Hide all” for the current page.</li><li><b>Make the samples your own.</b> The peach “Sample answer” label means one possible response. Other relevant, correct answers are valid.</li><li><b>Keep your place.</b> Save pages or mark them reviewed. These choices are stored only in this browser.</li><li><b>Take it to class.</b> “Print unit” includes every page and answer in that unit.</li></ol>
+    <p class="source-note">Based on the supplied MEB Grade 11 Teacher’s Guide photographs. Fixed answers follow the guide; short model answers are original teaching examples. Audio and video answers use the printed keys and transcripts. Media files and appendix exercises were not supplied. This is an independent resource, not an official MEB publication.</p>
+  </dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <div id="print-root"></div>
+  <noscript><p class="noscript-note">Please enable JavaScript to navigate the answer collection.</p></noscript>
+</body>
+</html>
