@@ -34,6 +34,21 @@
             "(rock) climbing",
             "doing crossword puzzles",
             "swimming"
+          ],
+          "prompt": "Label the twelve hobby pictures in your book.",
+          "questions": [
+            "Picture 1: Which hobby is shown?",
+            "Picture 2: Which hobby is shown?",
+            "Picture 3: Which hobby is shown?",
+            "Picture 4: Which hobby is shown?",
+            "Picture 5: Which hobby is shown?",
+            "Picture 6: Which hobby is shown?",
+            "Picture 7: Which hobby is shown?",
+            "Picture 8: Which hobby is shown?",
+            "Picture 9: Which hobby is shown?",
+            "Picture 10: Which hobby is shown?",
+            "Picture 11: Which hobby is shown?",
+            "Picture 12: Which hobby is shown?"
           ]
         },
         {
@@ -41,8 +56,13 @@
           "title": "Your experience and a new hobby",
           "kind": "sample",
           "answers": [
-            "1. I have tried swimming, playing chess and taking photos.",
-            "2. I’d like to take up playing the guitar because I love music."
+            "I have tried swimming, playing chess and taking photos.",
+            "I’d like to take up playing the guitar because I love music."
+          ],
+          "prompt": "Look at the hobbies and discuss these questions.",
+          "questions": [
+            "Which of these hobbies have you already had?",
+            "Which hobby would you like to take up? Why?"
           ]
         },
         {
@@ -51,7 +71,8 @@
           "kind": "sample",
           "answers": [
             "Reading, drawing, cycling, cooking, hiking, pottery, coding, gardening, origami, dancing, photography and playing musical instruments."
-          ]
+          ],
+          "prompt": "Brainstorm hobbies with your group and make a list."
         }
       ]
     },
@@ -73,7 +94,8 @@
             "cycling",
             "camping",
             "hiking"
-          ]
+          ],
+          "prompt": "Listen to Audio 2.1. Which hobbies does the TV presenter mention? Underline them in your book."
         },
         {
           "label": "5",
@@ -81,7 +103,8 @@
           "kind": "key",
           "answers": [
             "C — gardening"
-          ]
+          ],
+          "prompt": "Listen to Audio 2.2. Which picture shows Roger’s favourite pastime?"
         },
         {
           "label": "6",
@@ -94,6 +117,15 @@
             "Gardening / His hobby",
             "arts and crafts",
             "embroidery and pottery"
+          ],
+          "prompt": "Listen to the conversation again and fill in the blanks.",
+          "questions": [
+            "1. Roger is fond of _____.",
+            "2. He is keen on _____.",
+            "3. His sister Jackie loves _____.",
+            "4. _____ improves the relationship between Roger and Jackie.",
+            "5. Jackie is very interested in _____.",
+            "6. She is skilled at _____ and _____."
           ]
         },
         {
@@ -101,13 +133,23 @@
           "title": "Discuss your hobbies and abilities",
           "kind": "sample",
           "answers": [
-            "1. I prefer outdoor activities because I like fresh air.",
-            "2. My favourite pastime is cycling.",
-            "3. Yes, I agree. Being in nature helps me feel calm and active.",
-            "4. Yes. Gardening is interesting because I enjoy watching plants grow.",
-            "5. I’m good at drawing.",
-            "6. Yes, I’m interested in arts and crafts.",
-            "7. I’m not skilled at embroidery, but I can make simple pottery."
+            "I prefer outdoor activities because I like fresh air.",
+            "My favourite pastime is cycling.",
+            "Yes, I agree. Being in nature helps me feel calm and active.",
+            "Yes. Gardening is interesting because I enjoy watching plants grow.",
+            "I’m good at drawing.",
+            "Yes, I’m interested in arts and crafts.",
+            "I’m not skilled at embroidery, but I can make simple pottery."
+          ],
+          "prompt": "Discuss the following questions with your partner.",
+          "questions": [
+            "Do you prefer indoor or outdoor activities?",
+            "What is your favourite pastime?",
+            "Do you agree that contact with nature is good for physical and mental health? Why / Why not?",
+            "Do you think gardening is interesting?",
+            "What are you good at doing?",
+            "Are you interested in arts and crafts?",
+            "Are you skilled at embroidery or pottery?"
           ]
         }
       ]
@@ -126,7 +168,8 @@
             "B: I’m fond of taking photos. What about you?",
             "A: I’m fond of cycling. What are you interested in?",
             "B: I’m interested in learning foreign languages."
-          ]
+          ],
+          "prompt": "Role-play a dialogue about what you are fond of doing and what you are interested in."
         },
         {
           "label": "9",
@@ -137,7 +180,8 @@
             "B: I prefer reading to watching films.",
             "A: Would you rather play tennis or swim?",
             "B: I’d rather swim than play tennis."
-          ]
+          ],
+          "prompt": "Ask and answer questions about different hobbies. Use “prefer … to …” and “would rather … than …”."
         },
         {
           "label": "Idioms",
@@ -147,6 +191,12 @@
             "A — My pleasure: You’re welcome.",
             "B — You can say that again: That’s true; I agree.",
             "A — the nuts and bolts: the basic practical details of a subject or activity."
+          ],
+          "prompt": "Choose the correct meaning of each expression.",
+          "questions": [
+            "1. What does “My pleasure” mean?",
+            "2. What does “You can say that again” mean?",
+            "3. What does “the nuts and bolts of something” mean?"
           ]
         }
       ]
@@ -164,7 +214,8 @@
             "/s/: helps, likes",
             "/z/: loves, listens",
             "/ɪz/: watches, brushes"
-          ]
+          ],
+          "prompt": "Say the verbs. Pay attention to their final sounds: helps, likes, loves, listens, watches, brushes."
         },
         {
           "label": "2–3",
@@ -175,7 +226,13 @@
             "/z/: loves, listens, enjoys, needs",
             "/ɪz/: watches, brushes, fixes, teaches"
           ],
-          "note": "New highlighted verbs: speaks /s/, enjoys /z/, fixes /ɪz/, needs /z/, teaches /ɪz/, starts /s/."
+          "note": "New highlighted verbs: speaks /s/, enjoys /z/, fixes /ɪz/, needs /z/, teaches /ɪz/, starts /s/.",
+          "prompt": "Put the highlighted verbs into the correct sound columns. Listen to Audio 2.3 and check.",
+          "questions": [
+            "Which verbs have a final /s/ sound?",
+            "Which verbs have a final /z/ sound?",
+            "Which verbs have a final /ɪz/ sound?"
+          ]
         },
         {
           "label": "4",
@@ -185,7 +242,8 @@
             "/s/: gifts, steps",
             "/z/: items, jars",
             "/ɪz/: boxes, dresses"
-          ]
+          ],
+          "prompt": "Say the plural nouns. Pay attention to their final sounds: gifts, steps, items, jars, boxes, dresses."
         },
         {
           "label": "5–6",
@@ -196,7 +254,13 @@
             "/z/: items, jars, flowers, birds",
             "/ɪz/: boxes, dresses, glasses, beaches"
           ],
-          "note": "New highlighted nouns: flowers /z/, books /s/, glasses /ɪz/, beaches /ɪz/, birds /z/, tents /s/."
+          "note": "New highlighted nouns: flowers /z/, books /s/, glasses /ɪz/, beaches /ɪz/, birds /z/, tents /s/.",
+          "prompt": "Put the highlighted nouns into the correct sound columns. Listen to Audio 2.4 and check.",
+          "questions": [
+            "Which nouns have a final /s/ sound?",
+            "Which nouns have a final /z/ sound?",
+            "Which nouns have a final /ɪz/ sound?"
+          ]
         },
         {
           "label": "E-Portfolio",
@@ -205,7 +269,8 @@
           "answers": [
             "My hobby is photography. I took it up last year because I enjoy capturing special moments. The nuts and bolts are choosing a subject, finding good light and keeping the camera steady. I usually take photos of nature."
           ],
-          "note": "A model presentation. Complete the requested research, add your own examples, and follow your teacher’s submission instructions."
+          "note": "A model presentation. Complete the requested research, add your own examples, and follow your teacher’s submission instructions.",
+          "prompt": "Prepare a short presentation about one of your hobbies. Explain why you like it, when you took it up and the nuts and bolts of the hobby."
         }
       ]
     },
@@ -221,6 +286,11 @@
           "answers": [
             "altruism",
             "calligraphy"
+          ],
+          "prompt": "Complete the vocabulary table using the underlined words.",
+          "questions": [
+            "1. What word means caring about the needs and happiness of other people?",
+            "2. What word means the art of producing beautiful writing with a special pen or brush?"
           ]
         },
         {
@@ -233,6 +303,14 @@
             "What do you dislike doing in your free time?",
             "Do you have a new hobby?",
             "When did you start this hobby?"
+          ],
+          "prompt": "Listen to Audio 2.5. Write the interviewer’s five questions.",
+          "questions": [
+            "1. What question asks Tina to choose between two types of activities?",
+            "2. What question asks about Tina’s likes?",
+            "3. What question asks about Tina’s dislikes?",
+            "4. What question asks whether Tina has a new interest?",
+            "5. What question asks when Tina began the hobby?"
           ]
         },
         {
@@ -248,6 +326,17 @@
             "3",
             "altruism",
             "charity"
+          ],
+          "prompt": "Listen again and choose the correct alternatives.",
+          "questions": [
+            "1. Does Tina prefer indoor or outdoor activities?",
+            "2. Does she enjoy reading or drawing?",
+            "3. Does she dislike science fiction movies or reality TV shows?",
+            "4. Does she take a calligraphy course once or twice a week?",
+            "5. Does she want to specialise in Japanese or Chinese calligraphy?",
+            "6. Did she start the hobby two or three weeks ago?",
+            "7. Is her new interest altruism or sculpture?",
+            "8. Is she a member of a local club or a charity?"
           ]
         }
       ]
@@ -262,10 +351,17 @@
           "title": "Calligraphy and childhood abilities",
           "kind": "sample",
           "answers": [
-            "1. Yes. I’d like to learn Turkish calligraphy because it looks beautiful.",
-            "2. Yes, I could write neatly when I was at primary school.",
-            "3. I could draw simple pictures, but I couldn’t draw portraits well.",
-            "4. Yes. I want to help people who need support."
+            "Yes. I’d like to learn Turkish calligraphy because it looks beautiful.",
+            "Yes, I could write neatly when I was at primary school.",
+            "I could draw simple pictures, but I couldn’t draw portraits well.",
+            "Yes. I want to help people who need support."
+          ],
+          "prompt": "Ask and answer the questions. Support your ideas with reasons or examples.",
+          "questions": [
+            "Do you think calligraphy is interesting? Would you like to specialise in Turkish calligraphy?",
+            "Could you write beautifully when you were at primary school?",
+            "Could you draw well when you were at primary school?",
+            "Do you want to be a member of a charity that helps people in need?"
           ]
         },
         {
@@ -284,7 +380,8 @@
             "A: When did you start it?",
             "B: Two months ago."
           ],
-          "note": "Record the interview, swap roles and record again. Evaluate fluency and accuracy after watching."
+          "note": "Record the interview, swap roles and record again. Evaluate fluency and accuracy after watching.",
+          "prompt": "Role-play and record an interview using the questions in activity 2 on page 30. Then change roles."
         },
         {
           "label": "Reading 1",
@@ -292,7 +389,8 @@
           "kind": "sample",
           "answers": [
             "According to the text in this unit, Tom Hanks enjoys collecting typewriters."
-          ]
+          ],
+          "prompt": "Do you know the hobbies of any celebrities? Share an example."
         },
         {
           "label": "Reading 2",
@@ -303,6 +401,13 @@
             "fencing",
             "philanthropy",
             "typewriter"
+          ],
+          "prompt": "Label the pictures using the words in the box.",
+          "questions": [
+            "Picture 1: What is it?",
+            "Picture 2: What activity is shown?",
+            "Picture 3: What activity is shown?",
+            "Picture 4: What is it?"
           ]
         }
       ]
@@ -322,7 +427,14 @@
             "Leslie Mann — riding a unicycle",
             "Oprah Winfrey — philanthropy"
           ],
-          "note": "These are answers according to the book’s reading text."
+          "note": "These are answers according to the book’s reading text.",
+          "prompt": "Read the text and complete the celebrity–hobby table.",
+          "questions": [
+            "1. What is Tom Hanks’s hobby?",
+            "2. What is David Beckham’s hobby?",
+            "3. What is Leslie Mann’s hobby?",
+            "4. What is Oprah Winfrey’s interest?"
+          ]
         }
       ]
     },
@@ -340,6 +452,13 @@
             "David Beckham is fond of fencing.",
             "Leslie Mann prefers riding a unicycle in her free time.",
             "Oprah Winfrey is interested in philanthropy."
+          ],
+          "prompt": "Use the table to answer these questions.",
+          "questions": [
+            "What is Tom Hanks keen on doing?",
+            "What is David Beckham fond of doing?",
+            "What does Leslie Mann prefer doing in her free time?",
+            "What is Oprah Winfrey interested in?"
           ]
         },
         {
@@ -355,6 +474,17 @@
             "David Beckham",
             "Leslie Mann",
             "Tom Hanks"
+          ],
+          "prompt": "Scan the text. Write the correct celebrity’s name for each description.",
+          "questions": [
+            "1. This celebrity is an altruistic person.",
+            "2. This celebrity is gifted at a sport, according to many people.",
+            "3. This celebrity became one of the best talk show hosts in the USA.",
+            "4. This celebrity is very good at comedic and dramatic roles.",
+            "5. This celebrity received the Comedy Star of the Year Award in 2014.",
+            "6. This celebrity practises the hobby with friends.",
+            "7. This celebrity finds the hobby beneficial.",
+            "8. This celebrity received many awards, including an Oscar."
           ]
         },
         {
@@ -362,15 +492,27 @@
           "title": "Your views and interests",
           "kind": "sample",
           "answers": [
-            "1. Yes, collecting typewriters is interesting because old machines have a history.",
-            "2. I’m good at playing basketball.",
-            "3. Yes, fencing looks exciting and challenging.",
-            "4. Yes, I’m into cycling because it keeps me active.",
-            "5. No, I’ve never ridden a unicycle.",
-            "6. Yes, I’m interested in helping others.",
-            "7. Yes. My neighbour volunteers at a local charity.",
-            "8. Yes, I’d like to volunteer at weekends.",
-            "9. Yes, I would donate money to help people in need."
+            "Yes, collecting typewriters is interesting because old machines have a history.",
+            "I’m good at playing basketball.",
+            "Yes, fencing looks exciting and challenging.",
+            "Yes, I’m into cycling because it keeps me active.",
+            "No, I’ve never ridden a unicycle.",
+            "Yes, I’m interested in helping others.",
+            "Yes. My neighbour volunteers at a local charity.",
+            "Yes, I’d like to volunteer at weekends.",
+            "Yes, I would donate money to help people in need."
+          ],
+          "prompt": "Ask and answer the questions. Give reasons or examples.",
+          "questions": [
+            "Do you think collecting typewriters is interesting?",
+            "Are you good at football or any other sports?",
+            "Do you think fencing is good fun?",
+            "Are you into cycling?",
+            "Have you ever ridden a unicycle?",
+            "Are you interested in philanthropy?",
+            "Do you know any altruistic people?",
+            "Would you like to dedicate time and energy to charities in the future?",
+            "Would you donate money to charities if you had a lot of money?"
           ]
         },
         {
@@ -379,7 +521,8 @@
           "kind": "sample",
           "answers": [
             "I think helping others makes society stronger. Small actions, such as volunteering or sharing, can improve people’s lives."
-          ]
+          ],
+          "prompt": "Discuss Martin Luther King Jr.’s quote about choosing creative altruism or destructive selfishness."
         }
       ]
     },
@@ -394,7 +537,8 @@
           "kind": "sample",
           "answers": [
             "Yes, I’ve heard of him. He was a Turkish scientist known for his work in theoretical physics."
-          ]
+          ],
+          "prompt": "Have you ever heard of Feza Gürsey? What do you know about him?"
         },
         {
           "label": "9",
@@ -403,7 +547,8 @@
           "answers": [
             "D — his wife"
           ],
-          "note": "The article gives information about his achievements, career and education."
+          "note": "The article gives information about his achievements, career and education.",
+          "prompt": "Read the article about Feza Gürsey. Which topic is NOT covered: his achievements, career, education or wife?"
         }
       ]
     },
@@ -427,7 +572,19 @@
             "True",
             "No information"
           ],
-          "note": "“No information” means the text does not establish the claim, even if it might be true outside the text."
+          "note": "“No information” means the text does not establish the claim, even if it might be true outside the text.",
+          "prompt": "Read the text again. Mark each statement True, False or No information.",
+          "questions": [
+            "1. Feza Gürsey is well known for his scientific achievements.",
+            "2. He was less intelligent than some classmates at Galatasaray High School.",
+            "3. He graduated from high school at the age of 18.",
+            "4. He received a B.S. in 1944.",
+            "5. He got married when he was 31.",
+            "6. He chose Cambridge University for his doctorate.",
+            "7. TÜBİTAK gave him the Science Award in 1969.",
+            "8. He finished his academic studies at Columbia University before 1961.",
+            "9. He received around ten national and international awards."
+          ]
         },
         {
           "label": "11",
@@ -435,7 +592,8 @@
           "kind": "key",
           "answers": [
             "C — Feza Gürsey was working at Yale University when he retired."
-          ]
+          ],
+          "prompt": "Which statement is correct according to the text about Feza Gürsey?"
         },
         {
           "label": "12",
@@ -448,6 +606,15 @@
             "particularly",
             "inspiration",
             "pass away"
+          ],
+          "prompt": "Match the highlighted words to the definitions.",
+          "questions": [
+            "1. Money given by an organisation to help pay for education.",
+            "2. A feeling of respect for and approval of someone or something.",
+            "3. A word used when something is very difficult to believe.",
+            "4. Especially.",
+            "5. Someone or something that gives you ideas.",
+            "6. To die."
           ]
         }
       ]
@@ -468,16 +635,30 @@
             "scholarship",
             "particularly"
           ],
-          "note": "Unused word: incredibly."
+          "note": "Unused word: incredibly.",
+          "prompt": "Use the correct form of the words from activity 12 to complete the sentences.",
+          "questions": [
+            "1. The sculptor gets his _____ from African art.",
+            "2. Sarah is terribly upset because her grandmother _____ a few days ago.",
+            "3. I have great _____ for him as a philosopher.",
+            "4. Michael won a(n) _____ to study at Stanford University last month.",
+            "5. I’d rather visit historic sites in Europe this summer, _____ in Italy."
+          ]
         },
         {
           "label": "14",
           "title": "Reflect on Feza Gürsey’s story",
           "kind": "sample",
           "answers": [
-            "1. His story is inspiring because he worked hard and contributed to science.",
-            "2. I found his international research career the most interesting.",
-            "3. Yes. His achievements can encourage young people to follow their interests."
+            "His story is inspiring because he worked hard and contributed to science.",
+            "I found his international research career the most interesting.",
+            "Yes. His achievements can encourage young people to follow their interests."
+          ],
+          "prompt": "Discuss Feza Gürsey’s life story.",
+          "questions": [
+            "What do you think of Feza Gürsey’s life story?",
+            "Which information did you find the most interesting?",
+            "Do you think he is an inspirational person?"
           ]
         },
         {
@@ -485,12 +666,21 @@
           "title": "Your past and present abilities",
           "kind": "sample",
           "answers": [
-            "1. Yes, I could solve simple maths problems easily at primary school.",
-            "2. Yes, I could get high grades when I studied regularly.",
-            "3. I’m fairly good at solving physics problems.",
-            "4. I’m gifted at English and art.",
-            "5. I’m keen on studying English and computer science.",
-            "6. No, I’d prefer a career in software engineering."
+            "Yes, I could solve simple maths problems easily at primary school.",
+            "Yes, I could get high grades when I studied regularly.",
+            "I’m fairly good at solving physics problems.",
+            "I’m gifted at English and art.",
+            "I’m keen on studying English and computer science.",
+            "No, I’d prefer a career in software engineering."
+          ],
+          "prompt": "Ask and answer the questions about your past and present abilities.",
+          "questions": [
+            "Could you solve maths problems easily at primary school?",
+            "Could you get high grades at secondary school?",
+            "Are you good at solving physics problems?",
+            "What school subjects are you gifted at?",
+            "What school subjects are you keen on studying?",
+            "Would you like a career in theoretical physics?"
           ]
         },
         {
@@ -499,15 +689,21 @@
           "kind": "sample",
           "answers": [
             "I’m interested in music and technology. I enjoy playing the guitar, and I’m good at learning new songs. When I was younger, I could draw well, but I couldn’t play an instrument. Now I can play several songs. I prefer creative activities because they help me express myself."
-          ]
+          ],
+          "prompt": "Write a paragraph about your interests and abilities. Check spelling and grammar before you submit it."
         },
         {
           "label": "Discussion",
           "title": "Science, evidence and remembering scientists",
           "kind": "sample",
           "answers": [
-            "1. Scientists should change their ideas when evidence shows something different. Facts should guide their thinking.",
-            "2. We should remember our scientists because their achievements inspire future generations and help us value science."
+            "Scientists should change their ideas when evidence shows something different. Facts should guide their thinking.",
+            "We should remember our scientists because their achievements inspire future generations and help us value science."
+          ],
+          "prompt": "Discuss the two ideas in Feza Gürsey’s quotations.",
+          "questions": [
+            "Why should a physicist adjust their thinking according to facts learned from nature?",
+            "Why should a nation remember its own scientists?"
           ]
         }
       ]

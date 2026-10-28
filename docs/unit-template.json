@@ -17,6 +17,7 @@
           "label": "1",
           "title": "A short activity description",
           "kind": "sample",
+          "prompt": "Write the exercise question or instruction here.",
           "answers": ["Replace this with a real brief model response after reading the supplied activity."],
           "note": "Optional context, alternative answers or submission guidance."
         }

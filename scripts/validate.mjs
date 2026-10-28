@@ -4,6 +4,8 @@ const root = new URL('../dist/data/', import.meta.url);
 const read = async file => JSON.parse(await readFile(new URL(file, root), 'utf8'));
 const manifest = await read('manifest.json');
 assert.equal(manifest.schemaVersion, 1, 'Unsupported content schema');
+assert.equal(manifest.title, '11th Grade MEB English', 'Use the requested book title');
+assert(manifest.questionNote?.trim(), 'Explain the treatment of source questions');
 assert(Array.isArray(manifest.units) && manifest.units.length, 'The collection must list units');
 const ids = new Set(), kinds = new Set(['key', 'sample', 'practice']);
 let pages = 0, activities = 0, samples = 0;
@@ -27,7 +29,12 @@ for (const entry of manifest.units) {
       assert(typeof a.label === 'string' && a.label.trim() && !labels.has(a.label), `Duplicate or empty activity label on page ${p.number}`);
       labels.add(a.label);
       assert(a.title?.trim() && kinds.has(a.kind), `Invalid activity on page ${p.number}`);
+      assert(typeof a.prompt === 'string' && a.prompt.trim(), `Missing question prompt on page ${p.number}, exercise ${a.label}`);
       assert(Array.isArray(a.answers) && a.answers.length, `Empty answer on page ${p.number}`);
+      if (a.questions !== undefined) {
+        assert(Array.isArray(a.questions) && a.questions.length === a.answers.length, `Questions and answers must pair one-to-one on page ${p.number}, exercise ${a.label}`);
+        assert(a.questions.every(q => typeof q === 'string' && q.trim()), `Blank question on page ${p.number}`);
+      }
       assert(a.answers.every(t => typeof t === 'string' && t.trim() && !/students?[’']?\s*own answers?|\bTODO\b|\bTBD\b/i.test(t)), `Replace placeholders with answers on page ${p.number}`);
       if (a.note !== undefined) assert(typeof a.note === 'string' && a.note.trim(), 'Notes must not be empty');
       activities++; if (a.kind === 'sample') samples++;

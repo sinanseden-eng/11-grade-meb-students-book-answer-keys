@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "title": "English 11 · Answer Studio",
+  "title": "11th Grade MEB English",
   "author": "Sinan Seden",
   "source": "MEB Grade 11 English Student’s Book · Teacher’s Guide photographs supplied by the teacher",
   "units": [
@@ -36,5 +36,6 @@
       "file": "unit-02.json",
       "status": "available"
     }
-  ]
+  ],
+  "questionNote": "Exercise questions are transcribed or shortened for clarity. Use your Student’s Book for the full reading texts, picture sets and recordings."
 }

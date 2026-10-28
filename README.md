@@ -1,81 +1,88 @@
-# English 11 · Answer Studio
+# 11th Grade MEB English
 
-A colorful, responsive MEB Grade 11 English answer collection prepared for **Sinan Seden**.
+A simple **unit → Student’s Book page → questions and answers** website, prepared by **Sinan Seden**.
 
-The first release includes **Unit 1: Future Jobs (Student’s Book pp. 10–24)** and **Unit 2: Hobbies and Skills (pp. 26–36)**: 26 pages and 90 activity groups. Fixed answers were transcribed and visually checked against the supplied Teacher’s Guide photographs. Open-ended tasks include brief original model responses, clearly labeled **Sample answer**.
+## Student access
 
-## What’s inside
+1. Open the home page and find the unit you are studying.
+2. Click the large **page number** printed in your Student’s Book.
+3. Read each exercise question. Its answer appears immediately underneath.
 
-- Page-by-page navigation with shareable hash URLs.
-- Search across every available unit, including answers and page numbers.
-- Individual answer disclosures, Show all / Hide all, and answer-type filters.
-- Saved pages and reviewed-page progress stored locally in the browser.
-- Print an entire unit with all answers, regardless of the current page or filter.
-- Responsive layouts, semantic headings, keyboard navigation, dialogs and reduced-motion support.
-- A data-driven collection: future units need new JSON content, not a new interface.
+All answers are visible. Orange boxes mark **Sample answer** responses that students can personalise. Use **Choose another page**, the page dropdown, or the **Previous / Next page** buttons to move around. Print the current page or an entire unit with the buttons above the exercises.
 
-This is an independent teaching resource, not an official MEB publication. Student’s Book page numbers differ from the larger Teacher’s Guide page numbers visible in the photographs. Listening/video keys are based on the printed answers and transcripts, not independently played media. Appendix exercises and media files were not supplied. No photographs or complete reading passages are redistributed.
+## Included content
+
+- **Unit 1: Future Jobs** — Student’s Book pages **10–24**.
+- **Unit 2: Hobbies and Skills** — Student’s Book pages **26–36**.
+- **26 pages, 90 activity groups**, including **36 groups of original brief model responses**.
+- Exercise prompts for every activity, plus individual question–answer pairs for numbered tasks.
+- Large page buttons, persistent access guidelines, readable text and mobile layouts.
+- Shareable page links. Existing links such as `#/unit/2/page/36` continue to work.
+
+Questions are transcribed or shortened for clarity from the supplied Teacher’s Guide photographs. Students should use their book for full reading texts, picture sets and recordings. Fixed answers follow the guide. Listening/video keys use the printed answer keys and transcripts. Appendix exercises and QR-linked further practice were not supplied. This is an independent teaching resource, not an official MEB publication.
 
 ## Run locally
 
-No install or build step is required. Serve `dist/` over HTTP (opening `index.html` directly with `file://` will block JSON loading in some browsers):
+No dependencies or build step are required. Serve `dist/` over HTTP:
 
 ```sh
 python3 -m http.server 8000 --directory dist
 ```
 
-Open `http://localhost:8000`. Validate the content with Node 18 or newer:
+Open `http://localhost:8000`. Opening HTML directly with `file://` may prevent JSON content from loading.
+
+Validate with Node 18 or newer:
 
 ```sh
 node scripts/validate.mjs
 node --check dist/app.js
 ```
 
-## Add the next unit
+## Add future units
 
-1. Copy `docs/unit-template.json` to `dist/data/unit-03.json` and fill in the content from the next supplied unit. Keep each page’s printed Student’s Book number and activity label.
-2. Add a corresponding entry to `dist/data/manifest.json` with `status: "available"` and `file: "unit-03.json"`. Use `color: "purple"` or `"teal"`; unit art falls back to the creative illustration for later units.
-3. Match `id`, `title`, `subtitle`, `color`, `icon`, `range`, `description` and `skills` between the manifest entry and unit file. The range describes the printed page span, e.g. `"38–48"`.
-4. Each activity has a `label`, `title`, `kind` and nonempty `answers` array. Use `kind: "key"` for fixed answers, `"sample"` for original model responses, and `"practice"` for action guidance. Add an optional `note` when alternatives or context matter. Never leave “students’ own answers” as the response—write a short sample.
-5. Run the validation commands, review the new pages, and commit. Navigation, search, statistics, print output and progress totals update automatically.
+1. Copy `docs/unit-template.json` to `dist/data/unit-03.json` and replace the example content using the next supplied unit.
+2. Add its matching metadata to `dist/data/manifest.json` with `status: "available"` and `file: "unit-03.json"`. Keep the metadata fields consistent between files. Supported colors are `purple` and `teal`.
+3. Use the Student’s Book page numbers and original activity labels. Keep existing IDs and page numbers stable so links continue to work.
+4. Every activity requires `label`, `title`, `kind`, `prompt` and a nonempty `answers` array. Use `key` for fixed answers, `sample` for model responses and `practice` for action guidance.
+5. For individual numbered questions, add a `questions` array with **exactly one question per answer**. The website pairs them in order. For a dialogue, list, paragraph or project model, use one `prompt` and the full response in `answers`.
+6. Run validation, review the new pages, then commit. Unit navigation, page buttons, printing and the page dropdown update automatically.
 
-Existing page numbers and unit IDs should stay stable so saved pages and links continue to work. The global search file is the manifest; there is no separate index to maintain. Progress is specific to the browser and origin, with no accounts or server-side student records.
+Example activity:
+
+```json
+{
+  "label": "2",
+  "title": "Your hobbies",
+  "kind": "sample",
+  "prompt": "Discuss the questions with your partner.",
+  "questions": ["What is your favourite hobby?", "Why do you like it?"],
+  "answers": ["My favourite hobby is cycling.", "I like it because it keeps me active."]
+}
+```
+
+Optional `note` text can explain alternatives, source context or submission guidance. Do not leave “students’ own answers” as the response; provide a brief model and set `kind: "sample"`.
 
 ## Hosting
 
-Deploy **`dist/`** to any static host. Paths are relative, so this works at both a domain root and a GitHub Pages repository subpath. The stylesheet uses Google Fonts with local system fallbacks. All answers and interface features work if font loading is unavailable.
+Deploy **`dist/`** to a static host. All paths are relative, including page navigation, so the website works under a GitHub Pages repository subpath. No external fonts, accounts, browser storage or backend services are required.
 
-An optional GitHub Pages workflow is included at `.github/workflows/pages.yml`. To publish:
+An optional manual GitHub Pages workflow is included:
 
-1. In repository **Settings → Pages**, set **Source** to **GitHub Actions**.
+1. Set repository **Settings → Pages → Source** to **GitHub Actions**.
 2. Open **Actions → Publish answer studio → Run workflow** on `main`.
-3. Re-run this workflow after content updates. It validates the collection before publishing.
+3. Run it again after future updates.
 
-The workflow is manual so publishing begins only when Pages is configured. Continuous content validation runs on pushes and pull requests.
-
-## Content and maintenance notes
-
-- Model answers are examples, not the only acceptable answers. Students should personalize fictional experiences, family details and opinions.
-- Celebrity and scientist answers follow the book’s text; they are reading-comprehension answers, not claims of current biography.
-- “No information” is judged only from the supplied reading text.
-- E-portfolio, recording and assessment tasks include guidance. Actual peer/self evaluation must reflect the student’s performance.
-- The source materials were supplied as `English 11th Grade.rar` containing 26 photographs. Original photographs stay outside this repository.
-- A source audit mapping each covered Student’s Book page to its photograph is in `docs/source-map.md`.
+Automatic content checks run on pushes and pull requests. The manual publishing workflow validates the content before deployment.
 
 ## Files
 
-```text
-dist/
-  index.html          Accessible application shell
-  styles.css          Responsive design and print layout
-  app.js              Navigation, rendering, search and local progress
-  data/
-    manifest.json     Available-unit catalog
-    unit-01.json      Future Jobs
-    unit-02.json      Hobbies and Skills
-docs/
-  unit-template.json  Reusable content structure
-  source-map.md       Source-page audit
-scripts/
-  validate.mjs        Content validation for future updates
-```
+- `dist/index.html`: book title, unit navigation and access guidelines.
+- `dist/app.js`: page directory, question–answer rendering, navigation and printing.
+- `dist/styles.css`: responsive design and print layout.
+- `dist/data/manifest.json`: available units and source-question note.
+- `dist/data/unit-01.json`, `unit-02.json`: page-by-page prompts, questions and answers.
+- `docs/unit-template.json`: structure for the next unit.
+- `docs/source-map.md`: mapping to the supplied photographs.
+- `scripts/validate.mjs`: checks content and one-to-one question–answer pairing.
+
+The original 26 photographs from `English 11th Grade.rar` stay outside the repository. Full passages are not redistributed. Celebrity and scientist details are comprehension answers according to the book, rather than claims about current biographies. Actual self/peer evaluation must reflect the student’s own performance.

@@ -23,7 +23,8 @@
           "kind": "sample",
           "answers": [
             "My father is an engineer, and my mother is a teacher."
-          ]
+          ],
+          "prompt": "What is your father’s / mother’s job?"
         },
         {
           "label": "2",
@@ -31,7 +32,8 @@
           "kind": "sample",
           "answers": [
             "Teacher, doctor, nurse, engineer, architect, dentist, accountant, lawyer, chef, pilot, journalist, software developer."
-          ]
+          ],
+          "prompt": "Work with your partner and make a list of jobs."
         },
         {
           "label": "3",
@@ -39,7 +41,8 @@
           "kind": "sample",
           "answers": [
             "I think being a software developer is the most interesting job because I enjoy solving problems and creating useful apps."
-          ]
+          ],
+          "prompt": "Which job do you think is the most interesting? Why?"
         },
         {
           "label": "4",
@@ -47,7 +50,8 @@
           "kind": "sample",
           "answers": [
             "I would tick information security analyst, biomedical engineer and solar energy technician. People will need secure systems, better healthcare and clean energy."
-          ]
+          ],
+          "prompt": "Which of the listed jobs do you think will be popular in the near future? Give reasons for your choices."
         }
       ]
     },
@@ -68,7 +72,16 @@
             "surgeon",
             "virtual reality designer"
           ],
-          "note": "Extra job: fashion designer."
+          "note": "Extra job: fashion designer.",
+          "prompt": "Use the job names to label pictures 1–6 in your book.",
+          "questions": [
+            "Picture 1: What is the job?",
+            "Picture 2: What is the job?",
+            "Picture 3: What is the job?",
+            "Picture 4: What is the job?",
+            "Picture 5: What is the job?",
+            "Picture 6: What is the job?"
+          ]
         },
         {
           "label": "6",
@@ -76,7 +89,8 @@
           "kind": "key",
           "answers": [
             "B — Some students’ career choices for the future."
-          ]
+          ],
+          "prompt": "Listen to Audio 1.1. What is this part of the career counsellor’s talk mainly about?"
         },
         {
           "label": "7",
@@ -87,6 +101,13 @@
             "an accountant",
             "mechatronics",
             "computer systems analyst"
+          ],
+          "prompt": "Listen again and choose the correct alternative.",
+          "questions": [
+            "Is Jason planning to become a statistician or a mechanical engineer?",
+            "Might Jason become a psychologist or an accountant?",
+            "Will Melanie study genetic engineering or mechatronics engineering?",
+            "Does Judy hope to become a surgeon or a computer systems analyst?"
           ]
         },
         {
@@ -97,6 +118,12 @@
             "numbers",
             "designing a new machine",
             "computer science"
+          ],
+          "prompt": "Listen again and complete the sentences.",
+          "questions": [
+            "Jason is keen on working with _____.",
+            "Melanie is very interested in _____.",
+            "Judy loves _____."
           ]
         }
       ]
@@ -118,7 +145,8 @@
             "wind energy technician",
             "solar energy technician"
           ],
-          "note": "Tick these six jobs. The other listed jobs are not mentioned in this part of the talk."
+          "note": "Tick these six jobs. The other listed jobs are not mentioned in this part of the talk.",
+          "prompt": "Listen to Audio 1.2. Which jobs does the career counsellor mention? Tick these jobs in your book."
         },
         {
           "label": "10",
@@ -131,7 +159,15 @@
             "employment",
             "renewable"
           ],
-          "note": "Extra word: addition."
+          "note": "Extra word: addition.",
+          "prompt": "Complete the sentences with the words in the list.",
+          "questions": [
+            "Most of tomorrow’s jobs will result from today’s scientific and technological _____.",
+            "The popularity of information security analysts will not _____ in the future.",
+            "Digital content specialists will probably be in high _____.",
+            "Biomedical engineers will not have difficulty finding _____.",
+            "Wind and solar power are examples of _____ energy sources."
+          ]
         },
         {
           "label": "11",
@@ -144,6 +180,15 @@
             "d. decline",
             "e. renewable",
             "f. addition"
+          ],
+          "prompt": "Match each definition to a word from activity 10.",
+          "questions": [
+            "a. A need for something to be supplied.",
+            "b. Work, especially when it is done to earn money.",
+            "c. Developments in a particular area.",
+            "d. To become smaller, weaker or fewer.",
+            "e. Capable of being replaced by natural ecological cycles.",
+            "f. A thing added to something else."
           ]
         }
       ]
@@ -160,7 +205,8 @@
           "answers": [
             "Yes. I agree because technology and renewable energy are becoming more important, so these careers may offer good opportunities."
           ],
-          "note": "A model opinion about the predictions in the book; other well-supported opinions are valid."
+          "note": "A model opinion about the predictions in the book; other well-supported opinions are valid.",
+          "prompt": "Do you agree with the career counsellor’s guesses about popular future jobs? Why / Why not?"
         },
         {
           "label": "13",
@@ -170,7 +216,8 @@
             "A: What are you going to do in your future career?",
             "B: I’m going to be a software engineer because I enjoy coding. What about you?",
             "A: I hope I’ll be a doctor because I want to help people."
-          ]
+          ],
+          "prompt": "Work in pairs. Ask and answer questions about your future career, as in the example."
         },
         {
           "label": "Idioms 1",
@@ -180,6 +227,12 @@
             "B — make up your mind: decide",
             "A — on top of the world: extremely happy",
             "B — think outside the box: think creatively"
+          ],
+          "prompt": "Choose the correct meaning of each idiom.",
+          "questions": [
+            "What does “make up your mind” mean?",
+            "What does “on top of the world” mean?",
+            "What does “think outside the box” mean?"
           ]
         },
         {
@@ -190,6 +243,12 @@
             "on top of the world",
             "think outside the box",
             "make up my mind"
+          ],
+          "prompt": "Complete the sentences using the correct forms of the idioms.",
+          "questions": [
+            "Sally felt _____ when she won the tennis tournament.",
+            "If you want to solve this puzzle, you must _____.",
+            "“Which dress would you like to buy?” “I don’t know. Both are very nice. I can’t _____.”"
           ]
         }
       ]
@@ -208,7 +267,13 @@
             "I’ll = I will",
             "won’t = will not"
           ],
-          "note": "Listen to Audio 1.3 and repeat the sentences in the book."
+          "note": "Listen to Audio 1.3 and repeat the sentences in the book.",
+          "prompt": "Listen to Audio 1.3 and practise the highlighted contractions. What are their full forms?",
+          "questions": [
+            "I’m",
+            "I’ll",
+            "won’t"
+          ]
         },
         {
           "label": "Pronunciation 3",
@@ -220,7 +285,8 @@
             "My best friends aren’t going to work in an office; they’re going to be actors.",
             "Lucy won’t go to university; she’ll probably be a dancer."
           ],
-          "note": "Read aloud and practise the contractions."
+          "note": "Read aloud and practise the contractions.",
+          "prompt": "Listen to Audio 1.4 and repeat the sentences. Pay attention to the negative forms and contractions."
         },
         {
           "label": "Pronunciation 4",
@@ -228,7 +294,8 @@
           "kind": "sample",
           "answers": [
             "I’m going to revise English next week. I’ll probably study with a friend. I won’t stay up late."
-          ]
+          ],
+          "prompt": "Talk about your plans and predictions for next week. Pronounce the contractions correctly."
         },
         {
           "label": "E-Portfolio 1",
@@ -236,7 +303,8 @@
           "kind": "key",
           "answers": [
             "why an e-portfolio is beneficial"
-          ]
+          ],
+          "prompt": "Read the paragraph. Is it about how to start an e-portfolio or why an e-portfolio is beneficial?"
         },
         {
           "label": "E-Portfolio 2",
@@ -245,7 +313,8 @@
           "answers": [
             "Use an individual blog under your teacher’s supervision. Add your assignments and projects, collect feedback, and review your progress."
           ],
-          "note": "This is an action task; there is no single written answer."
+          "note": "This is an action task; there is no single written answer.",
+          "prompt": "Read the information box. How should you keep and use your e-portfolio?"
         }
       ]
     },
@@ -264,7 +333,8 @@
             "Skills: Technical knowledge, teamwork and careful problem-solving.",
             "Why it interests me: I want to help people use clean energy."
           ],
-          "note": "A brief poster model. Add a suitable illustration, follow your teacher’s project instructions, and submit it next week."
+          "note": "A brief poster model. Add a suitable illustration, follow your teacher’s project instructions, and submit it next week.",
+          "prompt": "Choose one of the jobs in activity 4 on page 10 and prepare a poster about it. Submit the project as instructed."
         },
         {
           "label": "1",
@@ -273,6 +343,11 @@
           "answers": [
             "CV = curriculum vitae. Résumé is another word for CV.",
             "A letter of intent is an application letter or cover letter in this context."
+          ],
+          "prompt": "Learn the information about CVs and letters of intent.",
+          "questions": [
+            "What does CV stand for? What is another word for CV?",
+            "What is a letter of intent called in this context?"
           ]
         },
         {
@@ -283,6 +358,12 @@
             "degree: a university qualification — üniversite diploması",
             "vacancy: an available job — açık kadro / boş pozisyon",
             "schedule: arrange a time — zamanını planlamak"
+          ],
+          "prompt": "Study the vocabulary table. What do these words mean?",
+          "questions": [
+            "degree",
+            "vacancy",
+            "schedule"
           ]
         },
         {
@@ -290,12 +371,19 @@
           "title": "Put the pictures in order",
           "kind": "key",
           "answers": [
-            "1. c — Graduate and get a degree.",
-            "2. b — Search for vacancies.",
-            "3. d — Send a CV and letter of intent.",
-            "4. a — Contact the company and schedule an interview."
+            "c — Graduate and get a degree.",
+            "b — Search for vacancies.",
+            "d — Send a CV and letter of intent.",
+            "a — Contact the company and schedule an interview."
           ],
-          "note": "Equivalently: a = 4, b = 2, c = 1, d = 3."
+          "note": "Equivalently: a = 4, b = 2, c = 1, d = 3.",
+          "prompt": "Number the pictures in the order of the job-application steps.",
+          "questions": [
+            "Which picture comes first?",
+            "Which picture comes second?",
+            "Which picture comes third?",
+            "Which picture comes fourth?"
+          ]
         }
       ]
     },
@@ -316,6 +404,16 @@
             "4 o’clock",
             "Wednesday",
             "19 October (the nineteenth of October)"
+          ],
+          "prompt": "Listen to Robin’s phone call in Audio 1.5. Fill in the numbered blanks.",
+          "questions": [
+            "1. Robin has applied for the _____ position.",
+            "2. Mr Taylor asks Robin to see him _____.",
+            "3. Mr Taylor first suggests 2 o’clock on _____.",
+            "4. Robin will be at the _____ at that time.",
+            "5. Robin asks, “Can we meet at _____?”",
+            "6. Mr Taylor then suggests _____ morning.",
+            "7. The interview is finally arranged for 11 o’clock on _____."
           ]
         },
         {
@@ -325,7 +423,8 @@
           "answers": [
             "Practise the conversation in activity 4 using the completed answers. Then swap the HR manager and candidate roles."
           ],
-          "note": "Use the book dialogue; a new role-play model is provided on page 18."
+          "note": "Use the book dialogue; a new role-play model is provided on page 18.",
+          "prompt": "Act out the completed phone conversation in activity 4. Change roles and act it out again."
         },
         {
           "label": "6",
@@ -336,6 +435,13 @@
             "The human resources manager first wanted to schedule the interview for next Monday.",
             "Robin could not attend at 2 p.m. on Monday because he had an appointment with the dentist.",
             "They finally agreed to schedule the interview for 19 October."
+          ],
+          "prompt": "Correct the mistakes in these statements about the phone call.",
+          "questions": [
+            "Robin applied for the position of market research analyst.",
+            "The HR manager first wanted to schedule the interview for next Tuesday.",
+            "Robin could not come on Monday because he had an appointment with a physical therapist.",
+            "They finally arranged the interview for 9 September."
           ]
         }
       ]
@@ -352,7 +458,8 @@
           "answers": [
             "I think the interviewer will ask about Robin’s education, strengths and reasons for wanting the job."
           ],
-          "note": "A prediction before watching. Compare it with activity 8."
+          "note": "A prediction before watching. Compare it with activity 8.",
+          "prompt": "Before watching Video 1.1, guess which questions the interviewer will ask."
         },
         {
           "label": "8",
@@ -362,7 +469,8 @@
             "Can you tell me a little bit about yourself?",
             "What are your strengths?",
             "Why do you want this job?"
-          ]
+          ],
+          "prompt": "Watch Video 1.1. Which questions from the list do you hear?"
         },
         {
           "label": "9",
@@ -372,6 +480,12 @@
             "a. Can you tell me a little bit about yourself?",
             "b. What are your strengths?",
             "c. Why do you want this job?"
+          ],
+          "prompt": "Use the questions from activity 8 to complete blanks a–c.",
+          "questions": [
+            "a. Which question introduces Robin’s education and experience?",
+            "b. Which question introduces Robin’s problem-solving and teamwork skills?",
+            "c. Which question asks Robin’s reason for applying?"
           ]
         },
         {
@@ -385,6 +499,15 @@
             "effective",
             "essential",
             "ambitious"
+          ],
+          "prompt": "Watch again and choose the word used in each part of the interview.",
+          "questions": [
+            "1. Robin took part in many “projects / competitions” at university.",
+            "2. His temporary jobs gave him “valuable / useful” experience.",
+            "3. He spends spare time “following / researching” new trends.",
+            "4. He can find “effective / practical” solutions.",
+            "5. He believes teamwork is “beneficial / essential”.",
+            "6. He describes himself as “ambitious / creative”."
           ]
         }
       ]
@@ -405,16 +528,30 @@
             "d → 1: achieve",
             "e → 5: competent"
           ],
-          "note": "Extra word: determined."
+          "note": "Extra word: determined.",
+          "prompt": "Match definitions a–e to words 1–6. One word is extra.",
+          "questions": [
+            "a. To improve something so that it works better or is more effective.",
+            "b. Not lasting or needed for very long; not permanent.",
+            "c. To deal successfully with something difficult.",
+            "d. To succeed in reaching an aim.",
+            "e. Having the necessary knowledge or skill to do something well."
+          ]
         },
         {
           "label": "12",
           "title": "Discuss the questions",
           "kind": "sample",
           "answers": [
-            "1. Yes, I would employ Robin. He is qualified, hardworking and good at teamwork.",
-            "2. Yes. Doing our best helps us improve our skills and reach our goals.",
-            "3. No, I haven’t had a temporary job yet. I’m planning to work in a café next summer."
+            "Yes, I would employ Robin. He is qualified, hardworking and good at teamwork.",
+            "Yes. Doing our best helps us improve our skills and reach our goals.",
+            "No, I haven’t had a temporary job yet. I’m planning to work in a café next summer."
+          ],
+          "prompt": "Discuss the questions with your partner.",
+          "questions": [
+            "Would you employ Robin if you were the HR manager? Why / Why not?",
+            "Do you believe people should do their best to achieve success?",
+            "Have you ever had a temporary job during the summer holidays? Are you planning to have one next summer?"
           ]
         },
         {
@@ -428,7 +565,8 @@
             "Candidate: I’m sorry, I have a class then. Could we meet at 2?",
             "HR: Yes, that’s fine. See you on Tuesday at 2.",
             "Candidate: Thank you. Have a nice day."
-          ]
+          ],
+          "prompt": "Role-play a phone call between an HR manager and a candidate to schedule a job interview."
         },
         {
           "label": "14",
@@ -439,7 +577,8 @@
             "HR: Can you come on Wednesday at 11?",
             "Candidate: Yes, that’s fine by me. Thank you.",
             "HR: You’re welcome. See you then."
-          ]
+          ],
+          "prompt": "Change roles and role-play the phone conversation again."
         },
         {
           "label": "15",
@@ -447,7 +586,8 @@
           "kind": "practice",
           "answers": [
             "Present one of the model conversations with your partner. Ask a classmate to record it, then upload it as instructed by your teacher."
-          ]
+          ],
+          "prompt": "Present your phone conversation to the class. Ask a classmate to record it and upload it to your blog."
         }
       ]
     },
@@ -462,7 +602,8 @@
           "kind": "sample",
           "answers": [
             "Yes. Video blogs help us practise speaking, notice our mistakes and see our progress."
-          ]
+          ],
+          "prompt": "Do you think it is a good idea to use video blogs as part of English classes? Why / Why not?"
         },
         {
           "label": "Video Blog 2",
@@ -476,7 +617,8 @@
             "Manager: Why do you want this job?",
             "Candidate: I want to use my skills and learn from your team."
           ],
-          "note": "Record with your partner, then assess fluency and accuracy after watching. Evaluation depends on the actual performance."
+          "note": "Record with your partner, then assess fluency and accuracy after watching. Evaluation depends on the actual performance.",
+          "prompt": "Imagine one of you is an HR manager and the other is a job candidate. Write and record a short interview together."
         },
         {
           "label": "Reading 1",
@@ -487,6 +629,13 @@
             "B.S. — Bachelor of Science",
             "M.A. — Master of Arts",
             "M.S. — Master of Science"
+          ],
+          "prompt": "Fill in the blanks with the correct degree acronyms.",
+          "questions": [
+            "1. _____: Bachelor of Arts",
+            "2. _____: Bachelor of Science",
+            "3. _____: Master of Arts",
+            "4. _____: Master of Science"
           ]
         }
       ]
@@ -502,7 +651,8 @@
           "kind": "sample",
           "answers": [
             "I would use job search websites because I could compare many vacancies and apply quickly."
-          ]
+          ],
+          "prompt": "Which way of job hunting would you choose if you were unemployed? Why?"
         },
         {
           "label": "3",
@@ -511,6 +661,11 @@
           "answers": [
             "Responsibilities",
             "Qualifications"
+          ],
+          "prompt": "Read the job advertisements. Complete the names of their two main sections.",
+          "questions": [
+            "1. Which section describes what the employee has to do?",
+            "2. Which section describes the education, experience and skills required?"
           ]
         }
       ]
@@ -533,6 +688,17 @@
             "A — creating a positive public image for clients",
             "C — testing and managing systems",
             "B — an M.S. in a relevant field"
+          ],
+          "prompt": "Choose the correct answer according to the job advertisements on page 20.",
+          "questions": [
+            "1. Which is NOT a responsibility of the Mechanical Engineer?",
+            "2. Which degree can a candidate hold to apply for the Mechanical Engineer position?",
+            "3. Which skill must the Mechanical Engineer have?",
+            "4. Which is NOT a responsibility of the Digital Advertising Manager?",
+            "5. Which experience would qualify a candidate for Digital Advertising Manager?",
+            "6. Which is a responsibility of the Public Relations Director?",
+            "7. Which is NOT a responsibility of the Laboratory Technician?",
+            "8. Which is NOT a listed qualification for the Laboratory Technician?"
           ]
         },
         {
@@ -541,7 +707,8 @@
           "kind": "sample",
           "answers": [
             "I would apply for the mechanical engineer position because I enjoy designing products and working in a team."
-          ]
+          ],
+          "prompt": "Think about your skills and interests. Which vacant position would you apply for? State your reasons."
         }
       ]
     },
@@ -556,7 +723,8 @@
           "kind": "key",
           "answers": [
             "They are CVs."
-          ]
+          ],
+          "prompt": "Read the two texts. Are they CVs or letters of intent?"
         },
         {
           "label": "7",
@@ -565,6 +733,11 @@
           "answers": [
             "Catherine Jackson — Public Relations Director",
             "David Newton — Mechanical Engineer"
+          ],
+          "prompt": "Which vacant position is each CV for?",
+          "questions": [
+            "1. Catherine Jackson’s CV",
+            "2. David Newton’s CV"
           ]
         }
       ]
@@ -587,6 +760,17 @@
             "David",
             "Catherine",
             "David"
+          ],
+          "prompt": "Read the CVs again. Write Catherine or David for each sentence.",
+          "questions": [
+            "1. _____ took specialised courses during his/her master’s studies.",
+            "2. _____ has good leadership skills.",
+            "3. _____ has a master’s degree from the University of Michigan.",
+            "4. _____ is skilled at client relations and critical thinking.",
+            "5. _____ improves public image by developing successful strategies.",
+            "6. _____ is good at strategic planning and problem-solving.",
+            "7. _____ received a B.A. from Cardiff University in 2007.",
+            "8. _____ is interested in table tennis and board games."
           ]
         },
         {
@@ -594,8 +778,13 @@
           "title": "Would you hire them?",
           "kind": "sample",
           "answers": [
-            "1. Yes, I would hire Catherine because she has relevant experience and strong leadership skills.",
-            "2. Yes, I would hire David because he has engineering qualifications and good problem-solving skills."
+            "Yes, I would hire Catherine because she has relevant experience and strong leadership skills.",
+            "Yes, I would hire David because he has engineering qualifications and good problem-solving skills."
+          ],
+          "prompt": "Discuss the CVs with your partner.",
+          "questions": [
+            "Would you hire Catherine if you were the HR manager? Why / Why not?",
+            "Would you hire David if you were the HR manager? Why / Why not?"
           ]
         },
         {
@@ -604,7 +793,8 @@
           "kind": "key",
           "answers": [
             "B — Her attempts to start and develop her original idea."
-          ]
+          ],
+          "prompt": "Read the article about Wendy Kopp. What is the text mainly about?"
         }
       ]
     },
@@ -625,7 +815,16 @@
             "e = 6",
             "f = 2"
           ],
-          "note": "Chronological sequence: b → f → d → a → c → e."
+          "note": "Chronological sequence: b → f → d → a → c → e.",
+          "prompt": "Put events a–f in the correct chronological order.",
+          "questions": [
+            "a. She built a network of members on campuses across the USA.",
+            "b. She decided to study Public and International Affairs at Princeton University.",
+            "c. She increased the number of areas served by Teach For America.",
+            "d. She got her degree and started Teach For America in New York City.",
+            "e. She founded Teach For All to teach poor students around the world.",
+            "f. She prepared her senior thesis on a project to teach in poor areas."
+          ]
         },
         {
           "label": "12",
@@ -637,6 +836,14 @@
             "expanded",
             "approximately",
             "donations"
+          ],
+          "prompt": "Complete the sentences using the highlighted words from the text.",
+          "questions": [
+            "1. Tom’s uncle is a creative _____; he is always dreaming up new projects.",
+            "2. Charities try to get more _____ to support them in their work.",
+            "3. The number of department stores has _____ in recent years.",
+            "4. The job will take _____ five weeks.",
+            "5. The charity has received more than $5 million in _____."
           ]
         },
         {
@@ -645,7 +852,8 @@
           "kind": "sample",
           "answers": [
             "Her story is inspiring because she turned an idea into a project that helped many students. It shows that determination can make a difference."
-          ]
+          ],
+          "prompt": "What do you think about Wendy Kopp’s success story?"
         },
         {
           "label": "14",
@@ -660,7 +868,8 @@
             "Interests: Robotics and cycling.",
             "References: Available on request."
           ],
-          "note": "Fictional professional CV for the mechanical engineer ad. It shows a suitable degree and six years of experience. Adapt the format to your own details or an imagined future profile."
+          "note": "Fictional professional CV for the mechanical engineer ad. It shows a suitable degree and six years of experience. Adapt the format to your own details or an imagined future profile.",
+          "prompt": "Choose a CV type from page 22 and write a CV for one of the job advertisements on page 20. You may choose a different job."
         },
         {
           "label": "Discussion",
@@ -668,7 +877,8 @@
           "kind": "sample",
           "answers": [
             "The quote means that clear goals help us make useful choices. For example, choosing a career goal can help us decide what to study."
-          ]
+          ],
+          "prompt": "Discuss Montaigne’s quote about having a destination and the wind. What does it suggest about goals?"
         }
       ]
     }
