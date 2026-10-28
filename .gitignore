@@ -3,3 +3,5 @@ node_modules/
 .sites/
 *.tar.gz
 qa-mobile.html
+docs/units-1-2-annotated.pdf
+.netlify/

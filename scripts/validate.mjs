@@ -20,6 +20,8 @@ for (const entry of manifest.units) {
   assert(u.pages.length > 0, 'Unit must include pages');
   let previous = 0;
   for (const p of u.pages) {
+    const image = await readFile(new URL(`../pages/page-${String(p.number).padStart(2,'0')}.webp`, root));
+    assert(image.length > 1000 && image.toString('ascii', 0, 4) === 'RIFF' && image.toString('ascii',8,12) === 'WEBP', `Missing or invalid answer-key image for page ${p.number}`);
     assert(Number.isInteger(p.number) && p.number > previous, 'Student’s Book pages must be unique and ascending within each unit');
     previous = p.number;
     assert(p.title?.trim() && p.section?.trim(), `Page ${p.number} needs a title and section`);
